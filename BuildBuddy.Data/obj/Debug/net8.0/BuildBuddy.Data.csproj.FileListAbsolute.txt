@@ -3,3 +3,10 @@ D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\BuildBuddy.Data.AssemblyInfoI
 D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\BuildBuddy.Data.AssemblyInfo.cs
 D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\BuildBuddy.Data.csproj.CoreCompileInputs.cache
 D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\BuildBuddy.Data.sourcelink.json
+D:\git\BuildBuddy\BuildBuddy.Data\bin\Debug\net8.0\BuildBuddy.Data.deps.json
+D:\git\BuildBuddy\BuildBuddy.Data\bin\Debug\net8.0\BuildBuddy.Data.dll
+D:\git\BuildBuddy\BuildBuddy.Data\bin\Debug\net8.0\BuildBuddy.Data.pdb
+D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\BuildBuddy.Data.dll
+D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\refint\BuildBuddy.Data.dll
+D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\BuildBuddy.Data.pdb
+D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\ref\BuildBuddy.Data.dll

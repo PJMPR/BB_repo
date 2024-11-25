@@ -1,5 +1,4 @@
-﻿using Backend.Dto;
-
+﻿
 namespace BuildBuddy.Application.Abstractions;
 
 public interface IConversationService

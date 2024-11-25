@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BuildBuddy.Application.Abstractions/1.0.0": {
+        "dependencies": {
+          "BuildBuddy.Contract": "1.0.0"
+        },
+        "runtime": {
+          "BuildBuddy.Application.Abstractions.dll": {}
+        }
+      },
+      "BuildBuddy.Contract/1.0.0": {
+        "runtime": {
+          "BuildBuddy.Contract.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BuildBuddy.Application.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BuildBuddy.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

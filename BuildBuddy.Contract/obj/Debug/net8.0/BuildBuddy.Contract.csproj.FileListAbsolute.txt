@@ -1,0 +1,12 @@
+D:\git\BuildBuddy\BuildBuddy.Contract\bin\Debug\net8.0\BuildBuddy.Contract.deps.json
+D:\git\BuildBuddy\BuildBuddy.Contract\bin\Debug\net8.0\BuildBuddy.Contract.dll
+D:\git\BuildBuddy\BuildBuddy.Contract\bin\Debug\net8.0\BuildBuddy.Contract.pdb
+D:\git\BuildBuddy\BuildBuddy.Contract\obj\Debug\net8.0\BuildBuddy.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\BuildBuddy\BuildBuddy.Contract\obj\Debug\net8.0\BuildBuddy.Contract.AssemblyInfoInputs.cache
+D:\git\BuildBuddy\BuildBuddy.Contract\obj\Debug\net8.0\BuildBuddy.Contract.AssemblyInfo.cs
+D:\git\BuildBuddy\BuildBuddy.Contract\obj\Debug\net8.0\BuildBuddy.Contract.csproj.CoreCompileInputs.cache
+D:\git\BuildBuddy\BuildBuddy.Contract\obj\Debug\net8.0\BuildBuddy.Contract.sourcelink.json
+D:\git\BuildBuddy\BuildBuddy.Contract\obj\Debug\net8.0\BuildBuddy.Contract.dll
+D:\git\BuildBuddy\BuildBuddy.Contract\obj\Debug\net8.0\refint\BuildBuddy.Contract.dll
+D:\git\BuildBuddy\BuildBuddy.Contract\obj\Debug\net8.0\BuildBuddy.Contract.pdb
+D:\git\BuildBuddy\BuildBuddy.Contract\obj\Debug\net8.0\ref\BuildBuddy.Contract.dll

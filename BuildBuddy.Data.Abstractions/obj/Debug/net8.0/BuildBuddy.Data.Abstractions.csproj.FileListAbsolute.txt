@@ -1,0 +1,16 @@
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\bin\Debug\net8.0\BuildBuddy.Data.Abstractions.deps.json
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\bin\Debug\net8.0\BuildBuddy.Data.Abstractions.dll
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\bin\Debug\net8.0\BuildBuddy.Data.Abstractions.pdb
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\bin\Debug\net8.0\BuildBuddy.Data.dll
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\bin\Debug\net8.0\BuildBuddy.Data.pdb
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\obj\Debug\net8.0\BuildBuddy.Data.Abstractions.csproj.AssemblyReference.cache
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\obj\Debug\net8.0\BuildBuddy.Data.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\obj\Debug\net8.0\BuildBuddy.Data.Abstractions.AssemblyInfoInputs.cache
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\obj\Debug\net8.0\BuildBuddy.Data.Abstractions.AssemblyInfo.cs
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\obj\Debug\net8.0\BuildBuddy.Data.Abstractions.csproj.CoreCompileInputs.cache
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\obj\Debug\net8.0\BuildBuddy.Data.Abstractions.sourcelink.json
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\obj\Debug\net8.0\BuildBud.6639FF22.Up2Date
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\obj\Debug\net8.0\BuildBuddy.Data.Abstractions.dll
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\obj\Debug\net8.0\refint\BuildBuddy.Data.Abstractions.dll
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\obj\Debug\net8.0\BuildBuddy.Data.Abstractions.pdb
+D:\git\BuildBuddy\BuildBuddy.Data.Abstractions\obj\Debug\net8.0\ref\BuildBuddy.Data.Abstractions.dll
