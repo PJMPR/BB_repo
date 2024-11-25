@@ -1,0 +1,802 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\BuildBuddy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|d:\\git\\buildbuddy\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|d:\\git\\buildbuddy\\buildbuddy.application\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|solutionrelative:buildbuddy.application\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|d:\\git\\buildbuddy\\buildbuddy.application\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|solutionrelative:buildbuddy.application\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}|BuildBuddy.Data.Repositories\\BuildBuddy.Data.Repositories.csproj|d:\\git\\buildbuddy\\buildbuddy.data.repositories\\buildbuddydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}|BuildBuddy.Data.Repositories\\BuildBuddy.Data.Repositories.csproj|solutionrelative:buildbuddy.data.repositories\\buildbuddydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|d:\\git\\buildbuddy\\buildbuddy.application\\buildbuddy.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|solutionrelative:buildbuddy.application\\buildbuddy.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|d:\\git\\buildbuddy\\buildbuddy.application\\services\\calendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|solutionrelative:buildbuddy.application\\services\\calendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|d:\\git\\buildbuddy\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|d:\\git\\buildbuddy\\backend\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|solutionrelative:backend\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D4AA29-9204-45B8-84BF-EF862A9ED0EA}|BuildBuddy.Application.Abstractions\\BuildBuddy.Application.Abstractions.csproj|d:\\git\\buildbuddy\\buildbuddy.application.abstractions\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D4AA29-9204-45B8-84BF-EF862A9ED0EA}|BuildBuddy.Application.Abstractions\\BuildBuddy.Application.Abstractions.csproj|solutionrelative:buildbuddy.application.abstractions\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|d:\\git\\buildbuddy\\backend\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|solutionrelative:backend\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|d:\\git\\buildbuddy\\backend\\controllers\\taskactualizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|solutionrelative:backend\\controllers\\taskactualizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|d:\\git\\buildbuddy\\backend\\controllers\\placecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|solutionrelative:backend\\controllers\\placecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|d:\\git\\buildbuddy\\backend\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|solutionrelative:backend\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|d:\\git\\buildbuddy\\backend\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|solutionrelative:backend\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D4AA29-9204-45B8-84BF-EF862A9ED0EA}|BuildBuddy.Application.Abstractions\\BuildBuddy.Application.Abstractions.csproj|d:\\git\\buildbuddy\\buildbuddy.application.abstractions\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D4AA29-9204-45B8-84BF-EF862A9ED0EA}|BuildBuddy.Application.Abstractions\\BuildBuddy.Application.Abstractions.csproj|solutionrelative:buildbuddy.application.abstractions\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|d:\\git\\buildbuddy\\buildbuddy.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|solutionrelative:buildbuddy.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|d:\\git\\buildbuddy\\buildbuddy.application\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|solutionrelative:buildbuddy.application\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D4AA29-9204-45B8-84BF-EF862A9ED0EA}|BuildBuddy.Application.Abstractions\\BuildBuddy.Application.Abstractions.csproj|d:\\git\\buildbuddy\\buildbuddy.application.abstractions\\itaskactualizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D4AA29-9204-45B8-84BF-EF862A9ED0EA}|BuildBuddy.Application.Abstractions\\BuildBuddy.Application.Abstractions.csproj|solutionrelative:buildbuddy.application.abstractions\\itaskactualizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|d:\\git\\buildbuddy\\buildbuddy.application\\services\\taskactualizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|solutionrelative:buildbuddy.application\\services\\taskactualizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|d:\\git\\buildbuddy\\buildbuddy.application\\services\\placeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|solutionrelative:buildbuddy.application\\services\\placeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|d:\\git\\buildbuddy\\buildbuddy.application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|solutionrelative:buildbuddy.application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|d:\\git\\buildbuddy\\buildbuddy.application\\services\\conversationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|solutionrelative:buildbuddy.application\\services\\conversationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|d:\\git\\buildbuddy\\buildbuddy.application\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}|BuildBuddy.Application\\BuildBuddy.Application.csproj|solutionrelative:buildbuddy.application\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|d:\\git\\buildbuddy\\backend\\buildbuddy.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}|Backend\\BuildBuddy.WebApi.csproj|solutionrelative:backend\\buildbuddy.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C76306-D659-41CC-97AB-EE082A837C95}|BuildBuddy.Contract\\BuildBuddy.Contract.csproj|d:\\git\\buildbuddy\\buildbuddy.contract\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C76306-D659-41CC-97AB-EE082A837C95}|BuildBuddy.Contract\\BuildBuddy.Contract.csproj|solutionrelative:buildbuddy.contract\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C76306-D659-41CC-97AB-EE082A837C95}|BuildBuddy.Contract\\BuildBuddy.Contract.csproj|d:\\git\\buildbuddy\\buildbuddy.contract\\taskactualizationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C76306-D659-41CC-97AB-EE082A837C95}|BuildBuddy.Contract\\BuildBuddy.Contract.csproj|solutionrelative:buildbuddy.contract\\taskactualizationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C76306-D659-41CC-97AB-EE082A837C95}|BuildBuddy.Contract\\BuildBuddy.Contract.csproj|d:\\git\\buildbuddy\\buildbuddy.contract\\conversationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C76306-D659-41CC-97AB-EE082A837C95}|BuildBuddy.Contract\\BuildBuddy.Contract.csproj|solutionrelative:buildbuddy.contract\\conversationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCA6C3C-47E7-494F-A098-DEAF0E61706D}|BuildBuddy.Data.Abstractions\\BuildBuddy.Data.Abstractions.csproj|d:\\git\\buildbuddy\\buildbuddy.data.abstractions\\irepositorycatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCA6C3C-47E7-494F-A098-DEAF0E61706D}|BuildBuddy.Data.Abstractions\\BuildBuddy.Data.Abstractions.csproj|solutionrelative:buildbuddy.data.abstractions\\irepositorycatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCA6C3C-47E7-494F-A098-DEAF0E61706D}|BuildBuddy.Data.Abstractions\\BuildBuddy.Data.Abstractions.csproj|d:\\git\\buildbuddy\\buildbuddy.data.abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCA6C3C-47E7-494F-A098-DEAF0E61706D}|BuildBuddy.Data.Abstractions\\BuildBuddy.Data.Abstractions.csproj|solutionrelative:buildbuddy.data.abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}|BuildBuddy.Data.Repositories\\BuildBuddy.Data.Repositories.csproj|d:\\git\\buildbuddy\\buildbuddy.data.repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}|BuildBuddy.Data.Repositories\\BuildBuddy.Data.Repositories.csproj|solutionrelative:buildbuddy.data.repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}|BuildBuddy.Data.Repositories\\BuildBuddy.Data.Repositories.csproj|d:\\git\\buildbuddy\\buildbuddy.data.repositories\\servicecollectionsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}|BuildBuddy.Data.Repositories\\BuildBuddy.Data.Repositories.csproj|solutionrelative:buildbuddy.data.repositories\\servicecollectionsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}|BuildBuddy.Data.Repositories\\BuildBuddy.Data.Repositories.csproj|d:\\git\\buildbuddy\\buildbuddy.data.repositories\\genericrepositorycatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}|BuildBuddy.Data.Repositories\\BuildBuddy.Data.Repositories.csproj|solutionrelative:buildbuddy.data.repositories\\genericrepositorycatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\model\\teamuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\model\\teamuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\model\\userconversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\model\\userconversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\model\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\model\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\model\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\model\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\model\\taskactualization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\model\\taskactualization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\model\\place.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\model\\place.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\model\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\model\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\model\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\model\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\model\\calendartask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\model\\calendartask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\model\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\model\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\ihaveid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\ihaveid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|d:\\git\\buildbuddy\\buildbuddy.data\\buildbuddy.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}|BuildBuddy.Data\\BuildBuddy.Data.csproj|solutionrelative:buildbuddy.data\\buildbuddy.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "BuildBuddy.Application\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:15:31.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:17:50.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BuildBuddyDbContext.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Repositories\\BuildBuddyDbContext.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data.Repositories\\BuildBuddyDbContext.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Repositories\\BuildBuddyDbContext.cs",
+              "RelativeToolTip": "BuildBuddy.Data.Repositories\\BuildBuddyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:38:23.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeamService.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\TeamService.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application\\Services\\TeamService.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\TeamService.cs",
+              "RelativeToolTip": "BuildBuddy.Application\\Services\\TeamService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:06:14.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CalendarService.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\CalendarService.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application\\Services\\CalendarService.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\CalendarService.cs",
+              "RelativeToolTip": "BuildBuddy.Application\\Services\\CalendarService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:56:14.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\Backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\Backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:52:26.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\Backend\\Controllers\\TeamController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\TeamController.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\Backend\\Controllers\\TeamController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\TeamController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:52:19.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITeamService.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application.Abstractions\\ITeamService.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application.Abstractions\\ITeamService.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application.Abstractions\\ITeamService.cs",
+              "RelativeToolTip": "BuildBuddy.Application.Abstractions\\ITeamService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:13:41.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BuildBuddy.Application",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\BuildBuddy.Application.csproj",
+              "RelativeDocumentMoniker": "BuildBuddy.Application\\BuildBuddy.Application.csproj",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\BuildBuddy.Application.csproj",
+              "RelativeToolTip": "BuildBuddy.Application\\BuildBuddy.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-25T15:55:59.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\Backend\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\TaskController.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\Backend\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:52:09.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskActualizationController.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\Backend\\Controllers\\TaskActualizationController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\TaskActualizationController.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\Backend\\Controllers\\TaskActualizationController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\TaskActualizationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:07:06.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlaceController.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\Backend\\Controllers\\PlaceController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\PlaceController.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\Backend\\Controllers\\PlaceController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\PlaceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:06:42.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\Backend\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\ItemController.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\Backend\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:06:28.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CalendarController.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\Backend\\Controllers\\CalendarController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\CalendarController.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\Backend\\Controllers\\CalendarController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\CalendarController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:50:13.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application.Abstractions\\IUserService.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application.Abstractions\\IUserService.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application.Abstractions\\IUserService.cs",
+              "RelativeToolTip": "BuildBuddy.Application.Abstractions\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:54:12.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "BuildBuddy.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:06:18.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application\\Services\\TaskService.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\TaskService.cs",
+              "RelativeToolTip": "BuildBuddy.Application\\Services\\TaskService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:05:59.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ITaskActualizationService.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application.Abstractions\\ITaskActualizationService.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application.Abstractions\\ITaskActualizationService.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application.Abstractions\\ITaskActualizationService.cs",
+              "RelativeToolTip": "BuildBuddy.Application.Abstractions\\ITaskActualizationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:05:48.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TaskActualizationService.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\TaskActualizationService.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application\\Services\\TaskActualizationService.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\TaskActualizationService.cs",
+              "RelativeToolTip": "BuildBuddy.Application\\Services\\TaskActualizationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:05:29.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PlaceService.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\PlaceService.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application\\Services\\PlaceService.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\PlaceService.cs",
+              "RelativeToolTip": "BuildBuddy.Application\\Services\\PlaceService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:05:12.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application\\Services\\MessageService.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\MessageService.cs",
+              "RelativeToolTip": "BuildBuddy.Application\\Services\\MessageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:05:09.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application\\Services\\ItemService.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\ItemService.cs",
+              "RelativeToolTip": "BuildBuddy.Application\\Services\\ItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:58:06.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ConversationService.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\ConversationService.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Application\\Services\\ConversationService.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Application\\Services\\ConversationService.cs",
+              "RelativeToolTip": "BuildBuddy.Application\\Services\\ConversationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:57:57.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BuildBuddy.WebApi",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\Backend\\BuildBuddy.WebApi.csproj",
+              "RelativeDocumentMoniker": "Backend\\BuildBuddy.WebApi.csproj",
+              "ToolTip": "D:\\git\\BuildBuddy\\Backend\\BuildBuddy.WebApi.csproj",
+              "RelativeToolTip": "Backend\\BuildBuddy.WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-25T15:45:59.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Contract\\LoginDto.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Contract\\LoginDto.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Contract\\LoginDto.cs",
+              "RelativeToolTip": "BuildBuddy.Contract\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:45:05.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TaskActualizationDto.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Contract\\TaskActualizationDto.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Contract\\TaskActualizationDto.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Contract\\TaskActualizationDto.cs",
+              "RelativeToolTip": "BuildBuddy.Contract\\TaskActualizationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:44:46.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ConversationDto.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Contract\\ConversationDto.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Contract\\ConversationDto.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Contract\\ConversationDto.cs",
+              "RelativeToolTip": "BuildBuddy.Contract\\ConversationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:44:32.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IRepositoryCatalog.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Abstractions\\IRepositoryCatalog.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data.Abstractions\\IRepositoryCatalog.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Abstractions\\IRepositoryCatalog.cs",
+              "RelativeToolTip": "BuildBuddy.Data.Abstractions\\IRepositoryCatalog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:33:15.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\User.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\Model\\User.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\User.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:17:13.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Abstractions\\IRepository.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data.Abstractions\\IRepository.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Abstractions\\IRepository.cs",
+              "RelativeToolTip": "BuildBuddy.Data.Abstractions\\IRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAawA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:16:37.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data.Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "BuildBuddy.Data.Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:29:31.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GenericRepositoryCatalog.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Repositories\\GenericRepositoryCatalog.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data.Repositories\\GenericRepositoryCatalog.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Repositories\\GenericRepositoryCatalog.cs",
+              "RelativeToolTip": "BuildBuddy.Data.Repositories\\GenericRepositoryCatalog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:41:41.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ServiceCollectionsExtensions.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Repositories\\ServiceCollectionsExtensions.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data.Repositories\\ServiceCollectionsExtensions.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Repositories\\ServiceCollectionsExtensions.cs",
+              "RelativeToolTip": "BuildBuddy.Data.Repositories\\ServiceCollectionsExtensions.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBkAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:46:13.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TeamUser.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\TeamUser.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\Model\\TeamUser.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\TeamUser.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\Model\\TeamUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:26:17.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserConversation.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\UserConversation.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\Model\\UserConversation.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\UserConversation.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\Model\\UserConversation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:26:23.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Team.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Team.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\Model\\Team.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Team.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\Model\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:25:28.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Tasks.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\Model\\Tasks.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Tasks.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\Model\\Tasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:26:12.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TaskActualization.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\TaskActualization.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\Model\\TaskActualization.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\TaskActualization.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\Model\\TaskActualization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:26:10.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Place.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Place.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\Model\\Place.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Place.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\Model\\Place.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:25:59.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Item.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\Model\\Item.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Item.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\Model\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:25:53.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IHaveId.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\IHaveId.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\IHaveId.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\IHaveId.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\IHaveId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:19:03.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CalendarTask.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\CalendarTask.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\Model\\CalendarTask.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\CalendarTask.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\Model\\CalendarTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:22:48.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Message.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\Model\\Message.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Message.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\Model\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:22:44.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Conversation.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Conversation.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\Model\\Conversation.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Conversation.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\Model\\Conversation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:22:42.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Calendar.cs",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Calendar.cs",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\Model\\Calendar.cs",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\Model\\Calendar.cs",
+              "RelativeToolTip": "BuildBuddy.Data\\Model\\Calendar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:22:33.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BuildBuddy.Data.csproj",
+              "DocumentMoniker": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\BuildBuddy.Data.csproj",
+              "RelativeDocumentMoniker": "BuildBuddy.Data\\BuildBuddy.Data.csproj",
+              "ToolTip": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\BuildBuddy.Data.csproj",
+              "RelativeToolTip": "BuildBuddy.Data\\BuildBuddy.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T15:46:26.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

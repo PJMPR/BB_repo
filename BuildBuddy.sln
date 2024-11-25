@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "Backend\Backend.csproj", "{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildBuddy.WebApi", "Backend\BuildBuddy.WebApi.csproj", "{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBuddy.Data", "BuildBuddy.Data\BuildBuddy.Data.csproj", "{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBuddy.Data.Abstractions", "BuildBuddy.Data.Abstractions\BuildBuddy.Data.Abstractions.csproj", "{CFCA6C3C-47E7-494F-A098-DEAF0E61706D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBuddy.Data.Repositories", "BuildBuddy.Data.Repositories\BuildBuddy.Data.Repositories.csproj", "{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBuddy.Contract", "BuildBuddy.Contract\BuildBuddy.Contract.csproj", "{E4C76306-D659-41CC-97AB-EE082A837C95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBuddy.Application.Abstractions", "BuildBuddy.Application.Abstractions\BuildBuddy.Application.Abstractions.csproj", "{E6D4AA29-9204-45B8-84BF-EF862A9ED0EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBuddy.Application", "BuildBuddy.Application\BuildBuddy.Application.csproj", "{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7182EB2D-E2B1-4E44-A24D-3BB61BD3F743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D99B4CE-DCBD-4EFF-BDAD-E773F5307741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCA6C3C-47E7-494F-A098-DEAF0E61706D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCA6C3C-47E7-494F-A098-DEAF0E61706D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCA6C3C-47E7-494F-A098-DEAF0E61706D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCA6C3C-47E7-494F-A098-DEAF0E61706D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212AFF0F-876D-4D07-ABE2-3E8DF4CAA656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C76306-D659-41CC-97AB-EE082A837C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C76306-D659-41CC-97AB-EE082A837C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C76306-D659-41CC-97AB-EE082A837C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C76306-D659-41CC-97AB-EE082A837C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D4AA29-9204-45B8-84BF-EF862A9ED0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D4AA29-9204-45B8-84BF-EF862A9ED0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D4AA29-9204-45B8-84BF-EF862A9ED0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D4AA29-9204-45B8-84BF-EF862A9ED0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3001B4E-D9A9-4BE3-B24B-9C6E13D34C40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

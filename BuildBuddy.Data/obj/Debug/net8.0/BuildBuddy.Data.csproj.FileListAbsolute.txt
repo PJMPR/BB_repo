@@ -1,0 +1,5 @@
+D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\BuildBuddy.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\BuildBuddy.Data.AssemblyInfoInputs.cache
+D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\BuildBuddy.Data.AssemblyInfo.cs
+D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\BuildBuddy.Data.csproj.CoreCompileInputs.cache
+D:\git\BuildBuddy\BuildBuddy.Data\obj\Debug\net8.0\BuildBuddy.Data.sourcelink.json

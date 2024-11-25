@@ -1,14 +1,6 @@
 using System.Text;
-using Backend.DbContext;
-using Backend.Interface.Calendar;
-using Backend.Interface.Tasks;
-using Backend.Interface.Team;
-using Backend.Interface.User;
-using Backend.Model;
-using Backend.Service.Calendar;
-using Backend.Service.Tasks;
-using Backend.Service.Team;
-using Backend.Service.User;
+using BuildBuddy.Application;
+using BuildBuddy.Data.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -18,9 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 var configuration = builder.Configuration;
 
+builder.Services.AddBuildBuddyData(connectionString);
 
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(connectionString));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -44,7 +35,8 @@ builder.Services.AddSwaggerGen(c =>
             }
         }, new List<string>()
     }});
-});builder.Services.AddControllers();
+});
+builder.Services.AddControllers();
 
 
 builder.Services.AddAuthentication(options =>
@@ -64,15 +56,9 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]))
     };
 });
- 
 
-builder.Services.AddScoped<IItemService, ItemService>();
-builder.Services.AddScoped<ICalendarService, CalendarService>();
-builder.Services.AddScoped<ITaskActualizationService, TaskActualizationService>();
-builder.Services.AddScoped<ITaskService, TaskService>();
-builder.Services.AddScoped<IPlaceService, PlaceService>();
-builder.Services.AddScoped<ITeamService, TeamService>();
-builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddBuildBuddyApp();
 
 
 var app = builder.Build();
