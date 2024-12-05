@@ -10,8 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 var configuration = builder.Configuration;
 
-builder.Services.AddBuildBuddyData(connectionString);
 
+builder.Services.AddBuildBuddyApp(connectionString);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -58,7 +58,6 @@ builder.Services.AddAuthentication(options =>
 });
 
 
-builder.Services.AddBuildBuddyApp();
 
 
 var app = builder.Build();

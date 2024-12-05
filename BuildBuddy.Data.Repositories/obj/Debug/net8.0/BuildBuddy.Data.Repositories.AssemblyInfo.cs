@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuildBuddy.Data.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36f4f4dca363f62d5653437adf5b64e4b056d293")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f47478ffe15d28c9a1ec7203606c51181f9a560")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuildBuddy.Data.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuildBuddy.Data.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

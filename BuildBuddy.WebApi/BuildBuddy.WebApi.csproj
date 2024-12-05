@@ -17,7 +17,6 @@
     <ItemGroup>
       <ProjectReference Include="..\BuildBuddy.Application\BuildBuddy.Application.csproj" />
       <ProjectReference Include="..\BuildBuddy.Contract\BuildBuddy.Contract.csproj" />
-      <ProjectReference Include="..\BuildBuddy.Data.Repositories\BuildBuddy.Data.Repositories.csproj" />
     </ItemGroup>
 
 </Project>

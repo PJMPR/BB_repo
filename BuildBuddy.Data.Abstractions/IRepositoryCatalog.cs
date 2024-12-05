@@ -4,18 +4,19 @@ namespace BuildBuddy.Data.Abstractions
 {
     public interface IRepositoryCatalog
     {
-        public IRepository<User, int> Users { get; }
-        public IRepository<Team, int> Teams { get; }
-        public IRepository<Conversation, int> Conversations { get; }
-        public IRepository<UserConversation, int> UserConversations { get; }
-        public IRepository<Calendar, int> Calendars { get; }
-        public IRepository<CalendarTask, int> CalendarTasks { get; }
-        public IRepository<Tasks, int> Tasks { get; }
-        public IRepository<TaskActualization, int> TaskActualizations { get; }
-        public IRepository<Item, int> Items { get; }
-        public IRepository<Place, int> Places { get; }
-        public IRepository<Message, int> Messages { get; }
-
-        public Task SaveChangesAsync();
+        IRepository<Item, int> Items { get; }
+        IRepository<User, int> Users { get; } 
+        IRepository<Calendar, int> Calendars { get; } 
+        IRepository<CalendarTask, int> CalendarTasks { get; } 
+        IRepository<Conversation, int> Conversations { get; } 
+        IRepository<Message, int> Messages { get; } 
+        IRepository<Place, int> Places { get; } 
+        IRepository<TaskActualization, int> TaskActualizations { get; } 
+        IRepository<Tasks, int> Tasks { get; } 
+        IRepository<Team, int> Teams { get; } 
+        IRepository<TeamUser, int> TeamUsers { get; } 
+        IRepository<UserConversation, int> UserConversations { get; } 
+        void Dispose();
+        Task SaveChangesAsync();
     }
 }

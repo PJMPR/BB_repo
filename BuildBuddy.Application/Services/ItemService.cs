@@ -2,7 +2,6 @@
 using BuildBuddy.Contract;
 using BuildBuddy.Data.Abstractions;
 using BuildBuddy.Data.Model;
-using Microsoft.EntityFrameworkCore;
 
 namespace BuildBuddy.Application.Services
 {
@@ -17,9 +16,7 @@ namespace BuildBuddy.Application.Services
 
         public async Task<IEnumerable<ItemDto>> GetAllItemsAsync()
         {
-            return await _repositories.Items
-                .Entities
-                .Select(item => new ItemDto
+            return await _repositories.Items.GetAsync(item => new ItemDto
                 {
                     Id = item.Id,
                     Name = item.Name,
@@ -27,15 +24,12 @@ namespace BuildBuddy.Application.Services
                     Metrics = item.Metrics,
                     QuantityLeft = item.QuantityLeft,
                     PlaceId = item.PlaceId
-                })
-                .ToListAsync();
+                });
         }
 
         public async Task<ItemDto> GetItemByIdAsync(int id)
         {
-            var item = await _repositories.Items
-                .Entities
-                .FirstOrDefaultAsync(i => i.Id == id);
+            var item = await _repositories.Items.GetByID(id);
 
             if (item == null)
             {
@@ -64,7 +58,7 @@ namespace BuildBuddy.Application.Services
                 PlaceId = itemDto.PlaceId
             };
 
-            _repositories.Items.Add(item);
+            _repositories.Items.Insert(item);
             await _repositories.SaveChangesAsync();
 
             itemDto.Id = item.Id;
@@ -73,9 +67,7 @@ namespace BuildBuddy.Application.Services
 
         public async Task UpdateItemAsync(int id, ItemDto itemDto)
         {
-            var item = await _repositories.Items
-                .Entities
-                .FirstOrDefaultAsync(i => i.Id == id);
+            var item = await _repositories.Items.GetByID(id);
 
             if (item != null)
             {
@@ -91,30 +83,25 @@ namespace BuildBuddy.Application.Services
 
         public async Task DeleteItemAsync(int id)
         {
-            var item = await _repositories.Items
-                .Entities
-                .FirstOrDefaultAsync(i => i.Id == id);
+            var item = await _repositories.Items.GetByID(id);
             if (item != null)
             {
-                _repositories.Items.Remove(item);
+                _repositories.Items.Delete(item);
                 await _repositories.SaveChangesAsync();
             }
         }
         public async Task<IEnumerable<ItemDto>> GetAllItemsByPlaceAsync(int placeId)
         {
-            return await _repositories.Items
-                .Entities
-                .Where(item => item.PlaceId == placeId)
-                .Select(item => new ItemDto
-                {
-                    Id = item.Id,
-                    Name = item.Name,
-                    QuantityMax = item.QuantityMax,
-                    Metrics = item.Metrics,
-                    QuantityLeft = item.QuantityLeft,
-                    PlaceId = item.PlaceId
-                })
-                .ToListAsync();
+            return await _repositories.Items.GetAsync(item => new ItemDto
+            {
+                Id = item.Id,
+                Name = item.Name,
+                QuantityMax = item.QuantityMax,
+                Metrics = item.Metrics,
+                QuantityLeft = item.QuantityLeft,
+                PlaceId = item.PlaceId
+            },
+            item => item.PlaceId == placeId);
         }
     }
 }

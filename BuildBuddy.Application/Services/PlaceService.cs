@@ -2,7 +2,6 @@
 using BuildBuddy.Contract;
 using BuildBuddy.Data.Abstractions;
 using BuildBuddy.Data.Model;
-using Microsoft.EntityFrameworkCore;
 
 namespace BuildBuddy.Application.Services
 {

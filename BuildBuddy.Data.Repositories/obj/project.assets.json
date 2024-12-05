@@ -770,7 +770,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "BuildBuddy.Data >= 1.0.0",
       "BuildBuddy.Data.Abstractions >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.0",
@@ -811,9 +810,6 @@
           "projectReferences": {
             "D:\\git\\BuildBuddy\\BuildBuddy.Data.Abstractions\\BuildBuddy.Data.Abstractions.csproj": {
               "projectPath": "D:\\git\\BuildBuddy\\BuildBuddy.Data.Abstractions\\BuildBuddy.Data.Abstractions.csproj"
-            },
-            "D:\\git\\BuildBuddy\\BuildBuddy.Data\\BuildBuddy.Data.csproj": {
-              "projectPath": "D:\\git\\BuildBuddy\\BuildBuddy.Data\\BuildBuddy.Data.csproj"
             }
           }
         }

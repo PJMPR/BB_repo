@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq.Expressions;
 
 namespace BuildBuddy.Data.Abstractions
 {
-    public interface IRepository<TEntity, TId> where TEntity : class, IHaveId<TId>
+    public interface IRepository<TEntity, TId> where TEntity : class
     {
-        IQueryable<TEntity> Entities { get; }
-        Task SaveChangesAsync();
-        void Add(TEntity entity);
-        void Update(TEntity entity);
-        void Remove(TEntity entity);
+        void Delete(TId id);
+        void Delete(TEntity entityToDelete);
+        Task<List<TEntity>> GetAsync(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, string includeProperties = "");
+        Task<List<TDto>> GetAsync<TDto>(Expression<Func<TEntity, TDto>> mapper, Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, string includeProperties = "");
+        ValueTask<TEntity?> GetByID(TId id);
+        void Insert(TEntity entity);
+        void Update(TEntity entityToUpdate);
     }
 }

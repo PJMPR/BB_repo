@@ -11,20 +11,20 @@ namespace BuildBuddy.Data.Repositories
         {
             return services.AddDbContext<BuildBuddyDbContext>(options =>
                 options.UseNpgsql(connectionString))
-                .AddScoped<IRepository<User, int>, GenericRepository<User, int>>()
-                .AddScoped<IRepository<Calendar, int>, GenericRepository<Calendar, int>>()
-                .AddScoped<IRepository<CalendarTask, int>, GenericRepository<CalendarTask, int>>()
-                .AddScoped<IRepository<Conversation, int>, GenericRepository<Conversation, int>>()
-                .AddScoped<IRepository<Item, int>, GenericRepository<Item, int>>()
-                .AddScoped<IRepository<Message, int>, GenericRepository<Message, int>>()
-                .AddScoped<IRepository<Place, int>, GenericRepository<Place, int>>()
-                .AddScoped<IRepository<TaskActualization, int>, GenericRepository<TaskActualization, int>>()
-                .AddScoped<IRepository<Tasks, int>, GenericRepository<Tasks, int>>()
-                .AddScoped<IRepository<Team, int>, GenericRepository<Team, int>>()
-                .AddScoped<IRepository<TeamUser, int>, GenericRepository<TeamUser, int>>()
-                .AddScoped<IRepository<User, int>, GenericRepository<User, int>>()
-                .AddScoped<IRepository<UserConversation, int>, GenericRepository<UserConversation, int>>()
-                .AddScoped<IRepositoryCatalog, GenericRepositoryCatalog>();
+                .AddScoped<IRepository<User, int>, MainRepository<User, int>>()
+                .AddScoped<IRepository<Calendar, int>, MainRepository<Calendar, int>>()
+                .AddScoped<IRepository<CalendarTask, int>, MainRepository<CalendarTask, int>>()
+                .AddScoped<IRepository<Conversation, int>, MainRepository<Conversation, int>>()
+                .AddScoped<IRepository<Item, int>, MainRepository<Item, int>>()
+                .AddScoped<IRepository<Message, int>, MainRepository<Message, int>>()
+                .AddScoped<IRepository<Place, int>, MainRepository<Place, int>>()
+                .AddScoped<IRepository<TaskActualization, int>, MainRepository<TaskActualization, int>>()
+                .AddScoped<IRepository<Tasks, int>, MainRepository<Tasks, int>>()
+                .AddScoped<IRepository<Team, int>, MainRepository<Team, int>>()
+                .AddScoped<IRepository<TeamUser, int>, MainRepository<TeamUser, int>>()
+                .AddScoped<IRepository<User, int>, MainRepository<User, int>>()
+                .AddScoped<IRepository<UserConversation, int>, MainRepository<UserConversation, int>>()
+                .AddScoped<IRepositoryCatalog, UnitOfWork>();
         }
     }
 }
